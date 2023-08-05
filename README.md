@@ -24,6 +24,10 @@ The Common Name of the user making the request must be in the `const admins = []
 
 `npm run server`
 
+This is how I run this "in production"
+
+`nohup npm run server > app.log &`
+
 ### Generate server self signed certs, valid for 5 years:
 
 I don't include the `certs/server.key` or `certs/server.crt` in this code repo because technically they should be kept secret. If someone knew them they may be able to impersonate your server. Use your own server certs to be safe.
