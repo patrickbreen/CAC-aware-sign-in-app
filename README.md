@@ -1,3 +1,7 @@
+### Demo server
+
+I'm running a demo server on `https://leetcyber.ddns.net:4433/`. This uses Dynamic DNS to point at my home network. I hope that it is stable enough.
+
 ### To sign in, insert your CAC card, and go to
 
 `https://{SERVER_NAME_OR_IP}:{PORT}/`
