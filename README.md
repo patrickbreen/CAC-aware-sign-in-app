@@ -24,9 +24,9 @@ The Common Name of the user making the request must be in the `const admins = []
 
 `npm run server`
 
-This is how I run this for now. Its not good because it doesn't auto restart and logs don't rotate. TODO use systemd.
+This is how I run this in "production". It uses systemd to run the service on startup.
 
-`nohup npm run server > app.log &`
+`./setup.sh`
 
 ### Generate server self signed certs, valid for 5 years:
 
